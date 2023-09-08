@@ -4,3 +4,11 @@ div {
   align-items: center;
   height: 800px;
 }
+
+
+img {
+  max-width: 100%; /* Ancho máximo de imagen: 100% */
+  height: auto; /* Esta propiedad se agrega principalmente para que en un navegador antiguo la imagen no se deforme y para que la altura se ajuste
+                      automáticamente según el ancho de la imagen.
+                  */
+}
